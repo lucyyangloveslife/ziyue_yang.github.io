@@ -448,7 +448,7 @@ a {
 
 .typed-css {
   display: inline-block;
-  white-space: nowrap;
+  white-space: normal;
   overflow: hidden;
   border-right: 2px solid #333;
   animation: typing 5s steps(60, end), blink 0.75s step-end infinite;
@@ -464,7 +464,6 @@ a {
   0%, 100% { border-color: #333; }
   50% { border-color: transparent; }
 }
-
 
 
 /* About */
@@ -658,7 +657,7 @@ a {
 
 
 .project-card__buttons .btn {
-  font-size: 0.9rem; /* 按钮更小 */
+  font-size: 1.1rem; /* 按钮更小 */
   padding: 0.4rem 1rem;
   margin: 0 auto;
 }
