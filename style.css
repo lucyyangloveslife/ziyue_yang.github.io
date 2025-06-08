@@ -409,6 +409,22 @@ a {
   animation: downToUp 0.8s;
 }
 
+.home-hero__stack {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 2rem; /* 图像和文本间距 */
+  flex-wrap: wrap; /* 小屏幕时自动换行 */
+}
+
+.home-hero__photo img {
+  width: 200px;
+  height: auto;
+  border-radius: 12px;
+  object-fit: cover;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
 @media (max-width: 37.5em) {
   .home-hero {
     height: unset;
