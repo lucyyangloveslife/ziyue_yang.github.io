@@ -623,6 +623,38 @@ a {
   }
 }
 
+.about__left {
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+}
+
+.about__right {
+  background: #fff;
+  padding: 3rem;
+  border-radius: 12px;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.05);
+}
+
+.about__education-list {
+  font-size: 1.6rem;
+  color: #444;
+  line-height: 1.8;
+  padding-left: 0;
+}
+
+.about__education-list li {
+  margin-bottom: 2rem;
+  list-style: none;
+}
+
+/* 响应式：小屏时变为上下结构 */
+@media (max-width: 37.5em) {
+  .about__right {
+    padding: 2rem;
+  }
+}
+
 /* projects */
 
 .projects__grid {
