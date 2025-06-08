@@ -438,6 +438,14 @@ a {
   }
 }
 
+.home-hero__photo {
+  flex: 1 1 300px;
+}
+
+.home-hero__info {
+  flex: 2 1 500px;
+}
+
 .home-hero__heading-primary {
   margin-bottom: 5rem;
 }
