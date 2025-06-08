@@ -13,6 +13,7 @@
   <link rel="icon" href="z.png" type="image/png" />
   <title>Ziyue Yang's Website</title>
   <meta name="description" content="Ziyue Yang Personal Site" />
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
 </head>
 
 <body>
@@ -64,14 +65,6 @@
     <!-- <button class="btn btn-theme btn-sm">Download CV</button> -->
   </header>
 
-  <!-- Remove or Comment out this theme selector code when you are done with choosing the right color for your theme so this color selector don't appear when you host the site online-->
-  <!-- <div class="themeClrSelector">
-    <input placeholder="Color Selector" type="color" value="#1DA1F2" class="themeClrSelector__input" />
-    <img alt="theme color tester" src="https://img.icons8.com/fluent/48/000000/rgb-circle-1.png"
-      class="themeClrSelector__img" />
-  </div> -->
-  <!-- -->
-
 <section id="home-hero" class="home-hero">
   <div class="home-hero__content">
     <!-- Container for stacked layout: image + text -->
@@ -85,18 +78,19 @@
       <div class="home-hero__info">
         <h1 class="heading-primary home-hero__heading-primary">
           <span class="heading-primary__sm"> Hello 👋</span>
-            <span class="heading-primary__main">
-              <span class="typed-css">I'm Ziyue Yang!</span><span class="cursor">|</span>
+          <span class="heading-primary__main">
+            <span id="typed-output">I'm Ziyue Yang!</span>
           </span>
-
         </h1>
         <a href="./assets/CV_Ziyue_Yang.pdf" class="btn btn-theme home-hero__btn-theme" download>
-          Download CV
+          Download My CV
         </a>
       </div>
     </div>
   </div>
 </section>
+
+
 
   <section id="about" class="about main-section">
     <div class="main-container">

@@ -471,34 +471,29 @@ a {
 }
 
 
-.typed-css {
+.home-hero__stack {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.home-hero__photo img {
+  max-width: 200px;  /* 或你希望的固定宽度 */
+  border-radius: 1rem;
+}
+
+.home-hero__info {
+  flex: 1;
+  min-width: 250px;
+}
+
+.heading-primary__main {
+  font-size: 2rem;
+  font-weight: bold;
   display: inline-block;
-  white-space: nowrap;
-  overflow: hidden;
-  width: 0;
-  animation: typing 5s steps(60, end) forwards;
 }
 
-.cursor {
-  display: inline-block;
-  animation: blink 0.75s step-end infinite;
-}
-
-@keyframes typing {
-  from { width: 0 }
-  to { width: 100% }
-}
-
-@keyframes blink {
-  0%, 100% { opacity: 1; }
-  50% { opacity: 0; }
-}
-
-
-/* About */
-/* .about {
-   background: rgb(252, 252, 252); 
-} */
 
 .about__info {
   display: grid;
