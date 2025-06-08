@@ -141,12 +141,14 @@ headerLogoConatiner.addEventListener('click', () => {
 })
 
 document.addEventListener("DOMContentLoaded", function () {
+  const target = document.getElementById("typed-output");
+  target.innerHTML = ""; // 清空默认内容
+
   new Typed("#typed-output", {
     strings: ["I'm Ziyue Yang!"],
     typeSpeed: 50,
     showCursor: true,
     cursorChar: "|",
-    backSpeed: 0,
     loop: false
   });
 });
