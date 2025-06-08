@@ -448,7 +448,7 @@ a {
 
 .typed-css {
   display: inline-block;
-  white-space: normal;
+  white-space: nowrap;
   overflow: hidden;
   border-right: 2px solid #333;
   animation: typing 5s steps(60, end), blink 0.75s step-end infinite;
