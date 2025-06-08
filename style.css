@@ -399,6 +399,7 @@ a {
   height: 100vh;
   min-height: 80rem;
   max-height: 120rem;
+  background-color: #e6f4ff;
 }
 
 .home-hero__content {
@@ -492,7 +493,8 @@ a {
 
 /* About */
 .about {
-  background: rgb(252, 252, 252);
+  /* background: rgb(252, 252, 252); */
+  background-color: #f5f0ff;
 }
 
 .about__info {
