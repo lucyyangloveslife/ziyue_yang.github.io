@@ -577,10 +577,11 @@ a {
 
 .projects__grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); /* 更宽一些 */
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr)); /* 卡片更宽 */
   gap: 3rem;
   margin-top: 3rem;
 }
+
 
 .project-card {
   position: relative;
@@ -633,9 +634,13 @@ a {
   margin-bottom: 2rem;
 }
 
+
 .project-card__buttons .btn {
+  font-size: 0.9rem; /* 按钮更小 */
+  padding: 0.4rem 1rem;
   margin: 0 auto;
 }
+
 
 /* 新增：固定在卡片底部的标题样式 */
 .project-card__title-container {
