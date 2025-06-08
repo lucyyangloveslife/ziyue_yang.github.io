@@ -139,3 +139,14 @@ const headerLogoConatiner = document.querySelector('.main-header__logo-container
 headerLogoConatiner.addEventListener('click', () => {
   location.href = 'index.html'
 })
+
+document.addEventListener("DOMContentLoaded", function () {
+  new Typed("#typed-output", {
+    strings: ["I'm Ziyue Yang!"],
+    typeSpeed: 50,
+    showCursor: true,
+    cursorChar: "|",
+    backSpeed: 0,
+    loop: false
+  });
+});

@@ -475,9 +475,13 @@ a {
   display: inline-block;
   white-space: nowrap;
   overflow: hidden;
-  border-right: 2px solid #333;
-  animation: typing 5s steps(60, end), blink 0.75s step-end infinite;
-  max-width: 100%;
+  width: 0;
+  animation: typing 5s steps(60, end) forwards;
+}
+
+.cursor {
+  display: inline-block;
+  animation: blink 0.75s step-end infinite;
 }
 
 @keyframes typing {
@@ -486,15 +490,15 @@ a {
 }
 
 @keyframes blink {
-  0%, 100% { border-color: #333; }
-  50% { border-color: transparent; }
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0; }
 }
 
 
 /* About */
-.about {
+/* .about {
    background: rgb(252, 252, 252); 
-}
+} */
 
 .about__info {
   display: grid;
