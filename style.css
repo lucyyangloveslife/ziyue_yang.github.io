@@ -493,8 +493,7 @@ a {
 
 /* About */
 .about {
-  /* background: rgb(252, 252, 252); */
-  background-color: #f5f0ff;
+   background: rgb(252, 252, 252); 
 }
 
 .about__info {
