@@ -1020,3 +1020,12 @@ a {
 html {
   scroll-behavior: smooth;
 }
+
+a {
+    color: #1a73e8; /* 更温和的蓝色 */
+    text-decoration: underline;
+  }
+
+a:hover {
+    color: #174ea6; /* 悬停时略深一点 */
+  }
