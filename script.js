@@ -140,15 +140,15 @@ headerLogoConatiner.addEventListener('click', () => {
   location.href = 'index.html'
 })
 
-document.addEventListener("DOMContentLoaded", function () {
-  const target = document.getElementById("typed-output");
-  target.innerHTML = ""; // 清空默认内容
+// document.addEventListener("DOMContentLoaded", function () {
+//   const target = document.getElementById("typed-output");
+//   target.innerHTML = ""; // 清空默认内容
 
-  new Typed("#typed-output", {
-    strings: ["I'm Ziyue Yang!"],
-    typeSpeed: 50,
-    showCursor: true,
-    cursorChar: "|",
-    loop: false
-  });
-});
+//   new Typed("#typed-output", {
+//     strings: ["I'm Ziyue Yang!"],
+//     typeSpeed: 50,
+//     showCursor: true,
+//     cursorChar: "|",
+//     loop: false
+//   });
+// });
